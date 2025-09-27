@@ -1,0 +1,67 @@
+:root {
+      --bs-primary: #ff6f61; /* surcharge couleur bootstrap */
+    }
+
+    body {
+      background-color: #121212;
+      color: #f0f0f0;
+      font-family: 'Roboto Slab', serif;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./assets/banner.jpg) center/cover no-repeat;
+      min-height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 3rem 2rem;
+      border-bottom: 5px solid var(--bs-primary);
+    }
+
+    .article-image {
+      max-width: 60%;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+
+    .score-box {
+      background: var(--bs-primary);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      border-radius: 15px;
+      margin-top: 2rem;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.6);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+      border-top: 1px solid #444;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #ff6f61;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #e85a4f;
+      text-decoration: underline;
+    }
+
+    .sidebar-card {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    }
+
+    .img-fluid {
+    max-width: 50%;
+    height: auto;
+}

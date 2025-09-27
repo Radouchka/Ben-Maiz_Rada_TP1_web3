@@ -2,14 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bootstrap Test</title>
+    <title>Critique sur Call Of Duty Modern Warfare 2</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="text-primary">Hello, Bootstrap 5!</h1>  
+    <section class="hero">
+    <div>
+      <h1 class="display-5 fw-bold">Critique sur Call Of Duty Modern Warfare 2</h1>
+      <p class="lead">Un Jeu qui à marqué des générations</p>
+      <span class="badge bg-primary"><i class="bi bi-star-fill"></i> Critique</span>
+      <p class="mt-2"> 27 Septembre 2025</p>
+    </div>
+  </section>
+  <div class="container my-5">
+    <div class="row g-5">
+      <!-- Article -->
+      <div class="col-lg-8">
+        <p>
+          <strong>Call of Duty: Modern Warfare 2</strong> est vraiment l’un des meilleurs jeux de tir à la première personne.
+           La campagne solo est super intense et pleine d’action. Les missions sont variées et tu restes accroché du début à la fin.
+        </p>
+
+        <img src="./assets/gameplay.jpg" alt="Call of Duty: Modern Warfare 2" class="article-image my-3">
+        <p class="text-muted">Source : Pinterest</p>
+
+        <p>
+          Chaque combat est rapide et précis, ce qui rend le jeu hyper fun. Mais ce qui rend <em>MW2</em> vraiment génial, c’est le mode multijoueur.
+           Il y a plein d’armes, de cartes et de stratégies différentes.
+        </p>
+
+        <p>
+          Tu peux jouer comme tu veux : sniper, tactique ou foncer dans le tas. Ça rend chaque partie unique et super addictive. 
+          Même des années après sa sortie, MW2 reste un jeu qu’on a envie de relancer encore et encore.
+        </p>
+
+        <p>
+          Et puis, il y a <strong>Simon "Ghost" Riley</strong>. Ce gars est juste légendaire ! Avec son masque en forme de crâne et son look de soldat ultra discret, il est hyper mystérieux et classe en même temps.
+           Ghost n’est pas juste un personnage badass : il est loyal avec son équipe et toujours prêt à se sacrifier pour ses amis. 
+        </p>
+
+        <img src="./assets/ghost.jpg" alt="Gameplay" class="article-image my-3">
+        <p class="text-muted">Source : Pinterest</p>
+
+        <p>
+          Tu te sens tout de suite impressionné par lui dans le jeu. Même s’il parle peu, il reste super humain et ses actions te marquent.
+           C’est pour ça que Ghost est devenu un personnage culte pour tous les fans de MW2.
+        </p>
+        <p>
+          En gros, <em>Call of Duty: Modern Warfare 2</em> est un jeu qui mélange action pure et moments forts grâce à ses personnages comme Ghost. C’est fun, intense et tu ne t’ennuies jamais.
+          Si tu veux un FPS qui te fait vibrer et te tient en haleine du début à la fin, MW2 est clairement un classique à ne pas manquer.
+        </p>
+
+        <!-- Score -->
+        <div class="score-box">
+          <h4>IMPRESSIONNANT</h4>
+          <h1>10/10</h1>
+        </div>
+
+        <!-- Accordion Bootstrap -->
+        <div class="accordion mt-4" id="extraInfo">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                Informations complémentaires
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#extraInfo">
+              <div class="accordion-body text-muted">
+                Le jeu est disponible sur PS4, PS5 et PC. Temps moyen pour finir l'histoire principale : environ 5 heures.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="col-lg-4">
+        <div class="sidebar-card">
+          <h5>Catégories</h5>
+          <ul class="list-unstyled">
+            <li> Action <span class="text-muted">5</span></li>
+            <li> Aventure <span class="text-muted">4</span></li>
+            <li> Stratégie <span class="text-muted">1</span></li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <h5>Articles similaires</h5>
+          <div class="mb-3">
+            <img src="./assets/random_pic.jpg" class="img-fluid rounded mb-2">
+            <p><a href="#" class="text-decoration-none"><i class="bi bi-book"></i> Critique sur la campagne Call of Duty: Un chef-d’œuvre de simulation Militaire</a></p>
+            <small class="text-muted">24 juillet 2024</small>
+          </div>
+          <div class="mb-3">
+            <img src="./assets/fatal_frame.jpg" class="img-fluid rounded mb-2">
+            <p><a href="#" class="text-decoration-none"><i class="bi bi-book"></i> Critique approfondie de Fatal Frame : Un jeu d'horreur psychologique inoubliable</a></p>
+            <small class="text-muted">10 août 2024</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer>
+    2025 © Critiques de Jeux Vidéo
+  </footer>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </html>
